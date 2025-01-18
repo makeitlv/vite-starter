@@ -1,0 +1,15 @@
+{
+  "name": "vite-starter",
+  "version": "1.0.0",
+  "description": "A starter project using Vite, Vituum, and Twig",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7",
+    "vituum": "^1.1.1",
+    "@vituum/vite-plugin-twig": "^1.1.0"
+  }
+}
