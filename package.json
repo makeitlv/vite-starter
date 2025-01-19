@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@vituum/vite-plugin-twig": "^1.1.0",
+    "bootstrap": "^5.3.3",
     "sass": "^1.83.4",
     "vite": "^6.0.7",
     "vituum": "^1.1.1"
