@@ -31,7 +31,7 @@ export default defineConfig({
     build: {
         outDir: 'public',
     },
-    publicDir: false,
+    publicDir: 'src/assets',
     server: {
         port: 8080,
         host: '0.0.0.0'
