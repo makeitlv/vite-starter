@@ -1,1 +1,11 @@
 @import 'bootstrap/scss/bootstrap';
+
+header a.active {
+  font-weight: bold;
+}
+
+.card-img-top {
+  height: 225px;
+  width: 100%;
+  display: block;
+}

@@ -5,6 +5,30 @@
 {% block title %}Index Page{% endblock %}
 
 {% block content %}
-    <h1>Welcome to the Index Page</h1>
-    <p>This is the main content of the index page.</p>
+    <div class="text-center">
+        <h1>Welcome to the Index Page</h1>
+        <p class="lead">This is the main content of the index page.</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-4 box-shadow">
+                <img class="card-img-top"
+                     alt="Thumbnail [100%x225]"
+                     data-holder-rendered="true"
+                     src="src/assets/thumbnail.png"
+                >
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card mb-4 box-shadow">
+                <img class="card-img-top"
+                     alt="Thumbnail [100%x225]"
+                     data-holder-rendered="true"
+                     src="src/assets/thumbnail.png"
+                >
+            </div>
+        </div>
+    </div>
 {% endblock %}
