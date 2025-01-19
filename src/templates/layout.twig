@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Vite Starter{% endblock %}</title>
+
+    {% block stylesheets %}
+        <link rel="stylesheet" href="/src/styles/main.css">
+    {% endblock %}
 </head>
 <body>
     {% include '../partials/header.twig' with page %}
@@ -13,5 +17,9 @@
     </main>
 
     {% include '../partials/footer.twig' %}
+
+    {% block scripts %}
+        <script src="/src/scripts/main.js" defer></script>
+    {% endblock %}
 </body>
 </html>

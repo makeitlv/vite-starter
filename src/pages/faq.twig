@@ -8,3 +8,8 @@
     <h1>Frequently Asked Questions</h1>
     <p>This is the FAQ page content.</p>
 {% endblock %}
+
+{% block scripts %}
+    {{ parent() }}
+    <script src="/src/scripts/faq.js" defer></script>
+{% endblock %}
